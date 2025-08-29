@@ -1,0 +1,93 @@
+body {
+  background: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#playSaliSong {
+  background-color: #1e88e5;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  user-select: none;
+}
+
+#playSaliSong:hover {
+  background-color: #1565c0;
+}
+
+#codeInput {
+  width: 800px;
+  height: 150px;
+  margin: 20px 0;
+  background: #222;
+  border: none;
+  color: #eee;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  resize: vertical;
+  caret-color: #1e88e5;
+}
+
+#playerContainer {
+  width: 800px;
+  background: #1b1b1b;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 0 20px rgba(30, 136, 229, 0.3);
+}
+
+#waveform {
+  width: 100%;
+  background: #000;
+  border-radius: 4px;
+  display: block;
+}
+
+#controls {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+button {
+  background: #333;
+  border: none;
+  color: #eee;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+}
+
+button:hover {
+  background: #444;
+}
+
+input[type="range"] {
+  cursor: pointer;
+  vertical-align: middle;
+}
